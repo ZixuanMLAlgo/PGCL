@@ -1,7 +1,7 @@
-# Self-Supervised Hypergraph Transformer for Recommender Systems
+# Graph Contrastive Learning with Positional Representation for Recommendation
 
-This repository contains TensorFlow codes and datasets for the paper:
-> Lianghao Xia, Chao Huang, Chuxu Zhang (2022). Self-Supervised Hypergraph Transformer for Recommender Systems. In KDD'22, Washington DC, USA, August 14-18, 2022.
+This repository contains Pytorch codes and datasets for the paper:
+> Zixuan Yi, Iadh Ounis and Craig MacDonald (2023). Graph Contrastive Learning with Positional Representation for Recommendation. In ECIR'23, Dublin, Ireland, April 2-6, 2023.
 
 ## Introduction
 This paper proposed a hypergraph transformer model named SHT to tackle the data sparsity and noise problem in collaborative filtering. It combines user/item id embedding with the topology-aware embedding given by GCNs as the local view, and learns the latent global relations in a transformer-like hypergraph encoder. The local embeddings are then denoised by the global view using an augmented solidity differentiation task. Comparing to our previous work <a href='https://github.com/akaxlh/HCCF'>HCCF</a> which is on hypergraph contrastive learning for CF, this paper proposes the novel hypergraph transformer architecture with the self-augmented solidity differentiation task, and highlights the strength of generative self-supervised learning.
