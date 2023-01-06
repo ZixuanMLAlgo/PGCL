@@ -25,8 +25,8 @@ The codes of PGCL are implemented and tested under the following development env
 
 
 ## Usage
-*Configure the xx.conf file in the directory named conf. (xx is the name of the model you want to run)</li>
-*Run main.py and choose the model you want to run.</li>
+* Configure the xx.conf file in the directory named conf. (xx is the name of the model you want to run)</li>
+* Run main.py and choose the model you want to run.</li>
 
 
 ## Datasets
